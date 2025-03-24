@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        button:hover {
+            background-color: green;
+            color: white;
+            ;
+        }
+
+        input:focus {
+            background-color: yellow;
+            color: black;
+        }
+
+        input:disabled {
+            background-color: red;
+            color: white;
+        }
+
+
+
+        tr:nth-child(1),
+        tr:nth-child(2),
+        tr:nth-child(3),
+        tr:nth-child(5),
+        tr:nth-child(8),
+        tr:nth-child(13) {
+            background-color: #b22a2a;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <h1>## 1. Pseudo Classes </h1>
+    <p> ### What is a Pseudo Class?
+        A pseudo-class is a keyword added to a selector that specifies a special state of the selected elements.
+        Pseudo-classes allow you to apply styles based on user interactions, element positions, or states without
+        modifying the HTML structure.
+
+        ### Why Use Pseudo-Classes?
+        - They enhance user experience by providing dynamic styling.
+        - They allow styling based on element state without requiring JavaScript.
+        - They improve readability and maintainability of CSS code.
+    </p>
+
+
+    <button>Hover me </button>
+
+
+    <input type="text" placeholder="Enter your name">
+
+    <input type="text" vaue="Disabled field" disabled>
+
+    <table>
+        <tr>
+            <td>Transaction 1</td>
+        </tr>
+        <tr>
+            <td>Transaction 2</td>
+        </tr>
+        <tr>
+            <td>Transaction 3</td>
+        </tr>
+        <tr>
+            <td>Transaction 1</td>
+        </tr>
+        <tr>
+            <td>Transaction 2</td>
+        </tr>
+        <tr>
+            <td>Transaction 3</td>
+        </tr>
+        <tr>
+            <td>Transaction 3</td>
+        </tr>
+        <tr>
+            <td>Transaction 3</td>
+        </tr>
+        <tr>
+            <td>Transaction 3</td>
+        </tr>
+        <tr>
+            <td>Transaction 3</td>
+        </tr>
+    </table>
+
+
+
+
+
+
+    
+</body>
+
+
+
+</html>
+
+
+
+
